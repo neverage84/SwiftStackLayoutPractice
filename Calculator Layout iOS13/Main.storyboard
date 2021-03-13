@@ -22,7 +22,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ujz-MN-pZX">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="143"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text=" 0  " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gC2-i9-XzD">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 0  " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gC2-i9-XzD">
                                                 <rect key="frame" x="20" y="20" width="374" height="143"/>
                                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="20"/>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="50"/>
@@ -31,7 +31,9 @@
                                             </label>
                                         </subviews>
                                         <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="gC2-i9-XzD" secondAttribute="bottom" constant="-20" id="1MJ-qS-Etn"/>
                                             <constraint firstItem="gC2-i9-XzD" firstAttribute="leading" secondItem="ujz-MN-pZX" secondAttribute="leading" constant="20" id="EJP-LU-xbS"/>
+                                            <constraint firstItem="gC2-i9-XzD" firstAttribute="top" secondItem="ujz-MN-pZX" secondAttribute="top" constant="20" id="K4I-Uf-ijm"/>
                                             <constraint firstAttribute="trailing" secondItem="gC2-i9-XzD" secondAttribute="trailing" constant="20" id="pfd-dw-bNV"/>
                                         </constraints>
                                     </view>
